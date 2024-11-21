@@ -1,0 +1,5 @@
+//create database atm_project
+use atm_project;
+create table account(id int,account_number int,name varchar(100),balance int);
+insert into account values(1,1234,"kasthuri",10000);
+select * from account;
